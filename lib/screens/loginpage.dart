@@ -3,8 +3,7 @@ import 'package:creativa_app/screens/mainpage.dart';
 import 'package:flutter/material.dart';
 
 
-/// Screen 1: Registration — collects Name + Student ID, then navigates
-/// to the MainScreen (Home tab) carrying the new Student object.
+
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});
 

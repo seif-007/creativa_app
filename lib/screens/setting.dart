@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Screen 7: Settings — Dark Mode (demo only) + Notifications toggles.
-/// These are local-only for now; wire them into a real theme/prefs
-/// system as a next step (see README).
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
 

@@ -4,10 +4,6 @@ import 'package:creativa_app/screens/loginpage.dart';
 import 'package:creativa_app/screens/setting.dart';
 import 'package:flutter/material.dart';
 
-/// The hamburger-menu drawer shown on every screen.
-/// Home / Profile / Courses just pop back to those tabs (handled by caller
-/// via [onSelectTab]); About / Settings push new screens; Logout confirms
-/// then wipes the nav stack back to the registration screen.
 class AppDrawer extends StatelessWidget {
   final Student student;
   final void Function(int tabIndex)? onSelectTab;

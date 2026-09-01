@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Simple data model for a course card.
 class _Course {
   final String title;
   final String description;
@@ -10,8 +9,6 @@ class _Course {
   const _Course(this.title, this.description, this.icon, this.color);
 }
 
-/// Screen 4: Courses tab — static list of course cards.
-/// Replace [_courses] with data fetched from an API/DB later.
 class CoursesScreen extends StatelessWidget {
   const CoursesScreen({super.key});
 

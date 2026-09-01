@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Screen 6: About — static informational page, pushed from the drawer.
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
 

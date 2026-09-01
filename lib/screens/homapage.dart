@@ -2,7 +2,7 @@ import 'package:creativa_app/items/Student.dart';
 import 'package:flutter/material.dart';
 
 
-/// Screen 3: Home tab — greets the logged-in student.
+
 class HomeScreen extends StatelessWidget {
   final Student student;
 

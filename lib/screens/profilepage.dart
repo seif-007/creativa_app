@@ -2,7 +2,6 @@ import 'package:creativa_app/items/Student.dart';
 import 'package:flutter/material.dart';
 
 
-/// Screen 5: Profile tab — shows the registered student's details.
 class ProfileScreen extends StatelessWidget {
   final Student student;
 

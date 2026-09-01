@@ -6,8 +6,7 @@ import 'package:creativa_app/screens/profilepage.dart';
 import 'package:flutter/material.dart';
 
 
-/// Screen 2 (host): wraps Home / Courses / Profile in a bottom nav bar,
-/// and provides the shared AppBar + Drawer for all three tabs.
+
 class MainScreen extends StatefulWidget {
   final Student student;
   final bool showWelcomeSnack;
